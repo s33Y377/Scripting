@@ -1,0 +1,28 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+bandit = "*"
+prospector = "*"
+autopep8 = "*"
+
+[packages]
+crypto = "*"
+requests = "*"
+collections = "*"
+fcntl = "*"
+pycrypto = "*"
+pyaescrypt = "==0.4.2"
+wolfcrypt = "*"
+pycryptodome = "*"
+cryptography = "*"
+scapy = "*"
+dictdiffer = "*"
+
+[requires]
+python_version = "3.6"
+
+[pipenv]
+allow_prereleases = true
